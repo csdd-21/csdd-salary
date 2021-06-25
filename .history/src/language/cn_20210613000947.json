@@ -1,0 +1,30 @@
+{
+  "changePwd": "修改密码",
+  "quit": "退出",
+  "month": "月份",
+  "realSalary": "税后月薪",
+  "rent": "房租",
+  "utilities": "水电费",
+  "shop": "购物+其它",
+  "remark": "备注",
+  "deposit": "存款",
+  "action": "操作",
+  "tab": {
+    "table": "表格",
+    "graphics": "趋势图",
+    "more": "更多"
+  },
+  "btn": {
+    "add": "新增",
+    "edit": "编辑",
+    "delete": "删除",
+    "save": "保存",
+    "cancle": "取消"
+  },
+  "graphics": {
+    "desc_line": "年消费清单曲线图",
+    "desc_pie": "年各月份消费清单饼图",
+    "line": "折线图",
+    "pie": "饼图"
+  }
+}

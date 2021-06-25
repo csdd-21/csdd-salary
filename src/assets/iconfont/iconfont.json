@@ -1,0 +1,79 @@
+{
+  "id": "2590418",
+  "name": "lists",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7581488",
+      "name": "blog",
+      "font_class": "blog",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8760187",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "18311262",
+      "name": "删 除",
+      "font_class": "shanchu1",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "15388185",
+      "name": "用户名",
+      "font_class": "yonghuming1",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "15247910",
+      "name": "编辑",
+      "font_class": "17",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "9927000",
+      "name": "英文",
+      "font_class": "yingwen",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "18991500",
+      "name": "theme-palette-fill",
+      "font_class": "theme-palette-fill",
+      "unicode": "e823",
+      "unicode_decimal": 59427
+    },
+    {
+      "icon_id": "9926999",
+      "name": "中文",
+      "font_class": "zhongwen",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "4157640",
+      "name": "下载",
+      "font_class": "Shapecopy",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "9974431",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    }
+  ]
+}

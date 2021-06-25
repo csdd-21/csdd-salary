@@ -1,0 +1,124 @@
+{
+    "2019": [
+        {
+            "month": 1,
+            "realSalary": 6000,
+            "rent": 680,
+            "utilities": 230,
+            "shop": 300,
+            "remark": "a",
+            "deposit": "",
+            "action": "view"
+        },
+        {
+            "month": "2",
+            "realSalary": 6000,
+            "rent": 680,
+            "utilities": 240,
+            "shop": 400,
+            "remark": "",
+            "deposit": "",
+            "action": "view"
+        },
+        {
+            "month": "3",
+            "realSalary": 6000,
+            "rent": 680,
+            "utilities": 250,
+            "shop": 200,
+            "remark": "",
+            "deposit": "",
+            "action": "view"
+        },
+        {
+            "month": "4",
+            "realSalary": 6000,
+            "rent": 680,
+            "utilities": 260,
+            "shop": 180,
+            "remark": "",
+            "deposit": "",
+            "action": "view"
+        },
+        {
+            "month": "5",
+            "realSalary": 6000,
+            "rent": 680,
+            "utilities": 180,
+            "shop": 160,
+            "remark": "",
+            "deposit": "",
+            "action": "view"
+        },
+        {
+            "month": "6",
+            "realSalary": 6000,
+            "rent": 900,
+            "utilities": 200,
+            "shop": 200,
+            "remark": "",
+            "deposit": "",
+            "action": "view"
+        },
+        {
+            "month": "7",
+            "realSalary": 6000,
+            "rent": 900,
+            "utilities": 190,
+            "shop": 600,
+            "remark": "",
+            "deposit": "",
+            "action": "view"
+        },
+        {
+            "month": "8",
+            "realSalary": 6000,
+            "rent": 900,
+            "utilities": 300,
+            "shop": 200,
+            "remark": "",
+            "deposit": "",
+            "action": "view"
+        },
+        {
+            "month": "9",
+            "realSalary": 6000,
+            "rent": 900,
+            "utilities": 100,
+            "shop": 100,
+            "remark": "",
+            "deposit": "",
+            "action": "view"
+        },
+        {
+            "month": "10",
+            "realSalary": 6000,
+            "rent": 680,
+            "utilities": 200,
+            "shop": 200,
+            "remark": "",
+            "deposit": "",
+            "action": "view"
+        },
+        {
+            "month": "11",
+            "realSalary": 6000,
+            "rent": 680,
+            "utilities": 200,
+            "shop": 100,
+            "remark": "",
+            "deposit": "",
+            "action": "view"
+        },
+        {
+            "month": "12",
+            "realSalary": 6000,
+            "rent": 680,
+            "utilities": 200,
+            "shop": 680,
+            "remark": "",
+            "deposit": "",
+            "action": "view"
+        }
+    ]
+}

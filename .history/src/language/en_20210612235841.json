@@ -1,0 +1,29 @@
+{
+  "changePwd": "changePwd",
+  "quit": "quit",
+  "month": "month",
+  "realSalary": "realSalary",
+  "rent": "rent",
+  "utilities": "utilities",
+  "shop": "shop",
+  "remark": "remark",
+  "deposit": "deposit",
+  "action": "action",
+  "tab": {
+    "table": "table",
+    "graphics": "graphics",
+    "more": "more"
+  },
+  "btn": {
+    "add": "add",
+    "edit": "edit",
+    "delete": "delete",
+    "save": "save",
+    "cancle": "cancle"
+  },
+  "graphics": {
+    "desc": "Year 2020 Consumption List Graphics",
+    "line": "line",
+    "pie": "pie"
+  },
+}

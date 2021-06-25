@@ -1,0 +1,72 @@
+const { json } = require('express');
+const express = require('express');
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+
+mongoose.connect("mongodb://127.0.0.1:27017/lists");
+mongoose.connection.on('connected', function () {
+    console.log("mongodb数据库成功！");
+});
+
+const List = mongoose.model('List', new mongoose.Schema({
+    month: { type: Number, require: true },
+    realSalary: { type: Number, require: true },
+    rent: { type: Number, require: true },
+    utilities: { type: Number, require: true },
+    shop: { type: Number, require: true },
+    deposit: { type: Number, require: true },
+    remark: { type: String, require: false },
+    action: { type: String, require: true }
+}))
+
+// 新增数据
+// User.create({
+//     userName: "test_01",
+//     passWord: "11"
+// }, function (err, doc) {
+//     if (!err) {
+//         // console.log(doc);
+//     } else {
+//         console.log(err);
+//     }
+// })
+
+//删除数据
+// User.remove({ age: 20 }, function (err, doc) {
+//   console.log(doc);
+// })
+
+//修改数据
+// User.update({ name: "功夫熊猫1" }, { $set: { age: 28 } }, function (err, doc) {
+//   console.log(doc);
+// })
+
+const app = express();
+
+app.use(bodyParser.json());//数据JSON类型
+app.use(bodyParser.urlencoded({ extended: false }));//解析post请求数据
+
+app.get('/', function (req, res) {
+    res.send('<h1>hello Nodejs</h1>')
+})
+
+app.post("/login", function (req, res) {
+
+    User
+        .find({
+            userName: req.query.userName,
+            passWord:  req.query.passWord
+        })
+ 
+        .then((users) => {
+            // console.log('user login reqqqqqqqqqqq -------------',req); 
+            console.log('user login reqqqqqqqqqqq -------------',req); 
+            console.log('user login res -------------',users); 
+            res.json(users)
+        })
+
+})
+
+app.listen('8000', function () {
+    console.log("8000");
+})

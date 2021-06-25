@@ -1,0 +1,88 @@
+@color: rgb(255, 255, 255);
+@bgColor: rgb(199, 209, 222);
+@borderColor: rgb(135, 137, 138);
+
+.login {
+    height: 100%;
+    // width: 100%;
+
+    .el-form {
+        background-color: fade(@bgColor, 60%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        border-radius: 8px;
+        padding: 40px 30px;
+
+        .el-form-item__label {
+            width: 10%;
+            text-align: left;
+        }
+
+        .el-form-item__content {
+            width: 20%;
+
+            .el-input__inner:hover,
+            .el-input__inner:focus {}
+
+            .el-input {
+                height: 20px;
+                width: 2000px;
+                border-radius: 4px;
+
+                &:hover,
+                &:focus {
+                    border-color: @borderColor;
+                }
+            }
+        }
+
+
+
+        .btns {
+            display: flex;
+            justify-content: flex-end;
+
+            .el-button {
+                background-color: @bgColor;
+                height: 20px;
+                width: 60px;
+                line-height: 20px;
+                padding: 0;
+                color: @color;
+
+                &:hover {
+                    background-color: fade(@bgColor, 60%);
+                    font-weight: 700;
+                    border-color: @bgColor;
+                }
+            }
+        }
+
+
+    }
+
+    .swiper-container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        .swiper-slide {
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 180px;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

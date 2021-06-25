@@ -1,0 +1,35 @@
+<template>
+  <div id="app">
+  </div>
+  <router-view/>
+</template>
+
+<script>
+export default {
+  data(){
+    return {
+
+    }
+ 
+  }
+}
+</script>
+
+<style lang="less">
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: gray;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+</style>

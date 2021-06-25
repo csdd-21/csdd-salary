@@ -1,0 +1,58 @@
+const mongoose = require('mongoose');
+mongoose.connect("mongodb://127.0.0.1:27017/csdd-config");
+mongoose.connection.on('connected', function () {
+    console.log("------ mongodb数据库成功！------");
+});
+
+const User = mongoose.model('User', new mongoose.Schema({
+    userName: { type: String, require: true },
+    passWord: { type: String, require: true },
+}))
+
+const List = mongoose.model('List', new mongoose.Schema({
+    month: { type: Number, require: true },
+    realSalary: { type: Number, require: true },
+    rent: { type: Number, require: true },
+    utilities: { type: Number, require: true },
+    shop: { type: Number, require: true },
+    deposit: { type: Number, require: true },
+    remark: { type: String, require: false },
+    action: { type: String, require: true }
+}))
+
+const Models = {
+    User: User,
+    List: List,
+};
+
+// 新增数据
+// User.create({
+//     userName: "test_00",
+//     passWord: "testttttt"
+// }, function (err, doc) {
+//     if (!err) {
+//         // console.log(doc);
+//     } else {
+//         console.log(err);
+//     }
+// })
+
+// 新增数据
+// List.create({
+//     month: 1,
+//     realSalary: 1,
+//     rent:1,
+//     utilities: 1,
+//     shop: 1,
+//     deposit:1,
+//     remark: "",
+//     action: ""
+// }, function (err, doc) {
+//     if (!err) {
+//         // console.log(doc);
+//     } else {
+//         console.log(err);
+//     }
+// })
+
+module.exports = Models;

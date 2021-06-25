@@ -1,0 +1,67 @@
+@color: rgb(135, 137, 138);
+@bgColor: rgb(223, 236, 242);
+
+.graphics {
+    height: 100%;
+    width: 100%;
+
+    /deep/ .el-radio-button__inner {
+        color: @color;
+
+        &:hover {
+            background-color: fade(@bgColor, 40%);
+            color: @color;
+            font-weight: 700;
+        }
+    }
+
+    /deep/ .el-radio-button__orig-radio:checked+.el-radio-button__inner {
+        background-color: fade(@bgColor, 80%);
+        color: @color;
+        font-weight: 700;
+        border-color: fade(@bgColor, 80%);
+        box-shadow: none;
+
+        &:hover {
+            background-color: fade(@bgColor, 40%);
+        }
+    }
+
+    .desc {
+        width: 1200px;
+        margin: auto;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .el-select-dropdown__item{
+        color:red;
+    }
+    .el-select-dropdown__item.selected{
+        color:red;
+    }
+  /deep/  .el-select-dropdown__item.selected{
+        color:red;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        min-height: 600px;
+        width: 100%;
+
+        #one {
+            height: 600px;
+            width: 1200px;
+            margin-top: 32px;
+            // background-color: pink;
+        }
+
+        #two {
+            height: 600px;
+            width: 1200px;
+            margin-top: 32px;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+@color: rgb(107, 148, 167);
+
+.about {
+  width: 90%;
+  margin: auto;
+  color: @color;
+  display: flex;
+  justify-content: flex-start;
+
+  .one {
+    width: 20%;
+    text-align: center;
+    margin: 60px 40px 0 0;
+
+    img {
+      height: 200px;
+      width: 200px;
+      border-radius: 100px;
+      object-fit: cover;
+      -o-object-position: top;
+      object-position: top;
+    }
+
+    .contact {
+      width: 120px;
+      margin: auto;
+      margin-top: 28px;
+      display: flex;
+      justify-content: space-around;
+
+      a,
+      i {
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        text-decoration: none;
+
+        &:hover {
+          color: fade(@color, 80%);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .two {
+    width: 80%;
+    padding-top: 42px;
+
+    .el-collapse-item__header {
+      color: rgb(107, 148, 167);
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .txt {
+      font-size: 14px;
+    }
+  }
+}

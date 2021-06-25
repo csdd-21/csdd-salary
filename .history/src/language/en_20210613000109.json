@@ -1,0 +1,30 @@
+{
+  "changePwd": "changePwd",
+  "quit": "quit",
+  "month": "month",
+  "realSalary": "realSalary",
+  "rent": "rent",
+  "utilities": "utilities",
+  "shop": "shop",
+  "remark": "remark",
+  "deposit": "deposit",
+  "action": "action",
+  "tab": {
+    "table": "table",
+    "graphics": "graphics",
+    "more": "more"
+  },
+  "btn": {
+    "add": "add",
+    "edit": "edit",
+    "delete": "delete",
+    "save": "save",
+    "cancle": "cancle"
+  },
+  "graphics": {
+    "desc_line": "年消费清单曲线图",
+    "desc_pie": "年各月份消费清单饼图",
+    "line": "line",
+    "pie": "pie"
+  }
+}
